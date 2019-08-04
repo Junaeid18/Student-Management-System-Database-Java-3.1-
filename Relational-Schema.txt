@@ -1,0 +1,22 @@
+Relational Schema
+
+Student(id,name,DOB,GPA,year,semester,Phn No,Password,Dept)
+Primary Key in Student Table is (id)
+
+Teacher(id,name, Phn No)
+Primary Key in Teacher Table is (id)
+
+Administrator(id,Name,Phn No,Email,Password)
+Primary Key in Administrator Table is (id)
+
+Course(Course_id,Course_name,course_credit)
+Primary Key in Course Table is (Course_id)
+
+Department(Dept_id,Dept_name)
+Primary Key in Department Table is (Dept_id)
+
+Student_Course(S_id,C_id)
+
+Dept_Course(Dept_id,Course_id)
+
+Course_faculty(Course_id,Faculty_id,dept_id)
